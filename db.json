@@ -1,55 +1,202 @@
 {
-    "cinemas_schedule": [
-        {"cinemaID": 0, "cinemaName": "Smart Plaza", "schedule" : [ 
-          {"year": 2020, "month": 3 , "days": [1, 2, 3, 4] , "current_schedule" :
-            [ 
-              {"time": "9:00", "movie":"Alien", "hall": 2},
-              {"time":"10:00", "movie":"La la land", "hall": 5}
+  "cinemas_schedule": [
+    {
+      "cinemaID": 0,
+      "cinemaName": "Smart Plaza",
+      "schedule": [
+        {
+          "year": 2020,
+          "month": 2,
+          "days": [
+            31
+          ],
+          "current_schedule": [
+            {
+              "time": "10:00",
+              "movie": "Suspiria"
+            
+            },
+            {
+              "time": "10:25",
+              "movie": "La la land"
               
-            ] 
-          },
-          {"year": 2020, "month": 3 , "days": [5, 6, 7, 8] , "current_schedule" :
-            [ 
-              {"time": "9:00", "movie":"Spiderman", "hall": 2},
-              {"time":"10:00", "movie":"La la land", "hall": 5}
+            },
+            {
+              "time": "10:55",
+              "movie": "Alien"
               
-            ] 
-          }
-         ]
+            },
+            {
+              "time": "11:20",
+              "movie": "Moonlight"
+              
+            },
+            {
+              "time": "12:00",
+              "movie": "First Reformed"
+              
+            },
+            {
+              "time": "12:15",
+              "movie": "Blade Runner 2049"
+              
+            },
+            {
+              "time": "13:00",
+              "movie": "Ready Player One"
+              
+            },
+            {
+              "time": "13:40",
+              "movie": "Spiderman" 
+            }
+          ]
         },
-        {"cinemaID": 1, "cinemaName": "Hellings", "schedule" : [ 
-          {"year": 2020, "month": 3 , "days": [1, 2, 3, 4] , "current_schedule" :
-            [ 
-              {"time": "9:00", "movie":"Alien", "hall": 2},
-              {"time":"10:00", "movie":"Moonlight", "hall": 5}
-              
-            ] 
-          },
-          {"year": 2020, "month": 3 , "days": [5, 6, 7, 8] , "current_schedule" :
-            [ 
-              {"time": "9:00", "movie":"Spiderman", "hall": 2},
-              {"time":"10:00", "movie":"Mother", "hall": 5}
-              
-            ] 
-          }
-         ]
+        {
+          "year": 2020,
+          "month": 3,
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "current_schedule": [
+            {
+              "time": "9:00",
+              "movie": "Alien",
+              "hall": 2
+            },
+            {
+              "time": "10:00",
+              "movie": "La la land",
+              "hall": 5
+            }
+          ]
         },
-        {"cinemaID": 2, "cinemaName": "Piramida", "schedule" : [ 
-          {"year": 2020, "month": 3 , "days": [1, 2, 3, 4] , "current_schedule" :
-            [ 
-              {"time": "9:00", "movie":"Alien", "hall": 2},
-              {"time":"10:00", "movie":"Mother", "hall": 5}
-              
-            ] 
-          },
-          {"year": 2020, "month": 3 , "days": [5, 6, 7, 8] , "current_schedule" :
-            [ 
-              {"time": "9:00", "movie":"Spiderman", "hall": 2},
-              {"time":"10:00", "movie":"Suspiria", "hall": 5}
-              
-            ] 
-          }
-         ]
+        {
+          "year": 2020,
+          "month": 3,
+          "days": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "current_schedule": [
+            {
+              "time": "9:00",
+              "movie": "Spiderman",
+              "hall": 2
+            },
+            {
+              "time": "10:00",
+              "movie": "La la land",
+              "hall": 5
+            }
+          ]
         }
       ]
+    },
+    {
+      "cinemaID": 1,
+      "cinemaName": "Hellings",
+      "schedule": [
+        {
+          "year": 2020,
+          "month": 3,
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "current_schedule": [
+            {
+              "time": "9:00",
+              "movie": "Alien",
+              "hall": 2
+            },
+            {
+              "time": "10:00",
+              "movie": "Moonlight",
+              "hall": 5
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "month": 3,
+          "days": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "current_schedule": [
+            {
+              "time": "9:00",
+              "movie": "Spiderman",
+              "hall": 2
+            },
+            {
+              "time": "10:00",
+              "movie": "Mother",
+              "hall": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cinemaID": 2,
+      "cinemaName": "Piramida",
+      "schedule": [
+        {
+          "year": 2020,
+          "month": 3,
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "current_schedule": [
+            {
+              "time": "9:00",
+              "movie": "Alien",
+              "hall": 2
+            },
+            {
+              "time": "10:00",
+              "movie": "Mother",
+              "hall": 5
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "month": 3,
+          "days": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "current_schedule": [
+            {
+              "time": "9:00",
+              "movie": "Spiderman",
+              "hall": 2
+            },
+            {
+              "time": "10:00",
+              "movie": "Suspiria",
+              "hall": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
